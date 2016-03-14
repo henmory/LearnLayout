@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LearnLayout</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="savePassword">记住密码</string>
+    <string name="forgetPassword">忘记密码?</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_chenck_password">ChenckPasswordActivity</string>
+    <string name="title_activity_set_password">SetPasswordActivity</string>
+    <string name="title_activity_find_password">FindPasswordActivity</string>
+    <string name="title_activity_app_setting">AppSettingActivity</string>
+    <string name="title_activity_modify_password">ModifyPasswordActivity</string>
+    <string name="title_activity_app_main">AppMainActivity</string>
+    <string name="title_activity_binder_setting">BinderSettingActivity</string>
+    <string name="title_activity_de_binder">DeBinderActivity</string>
+    <string name="title_activity_family_number_setting">FamilyNumberSettingActivity</string>
+    <string name="title_activity_add_bind_device">AddBindDeviceActivity</string>
+    <string name="title_activity_trace">TraceActivity</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_detail_navigation">DetailNavigationActivity</string>
+    <string name="register_info">此号码可以用于登录和充值密码</string>
+    <string name="nextStep">下一步</string>
+    <string name="register_info_agree">阅读并同意《长虹软件许可及服务协议》</string>
+</resources>

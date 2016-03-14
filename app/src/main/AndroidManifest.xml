@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.henmory.views">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.henmory.views.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.henmory.views.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.CheckPasswordActivity"
+            android:label="@string/title_activity_chenck_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.SetPasswordActivity"
+            android:label="@string/title_activity_set_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.FindPasswordActivity"
+            android:label="@string/title_activity_find_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.AppSettingActivity"
+            android:label="@string/title_activity_app_setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.ModifyPasswordActivity"
+            android:label="@string/title_activity_modify_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.AppMainActivity"
+            android:label="@string/title_activity_app_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.BinderSettingActivity"
+            android:label="@string/title_activity_binder_setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.DeBinderActivity"
+            android:label="@string/title_activity_de_binder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.FamilyNumberSettingActivity"
+            android:label="@string/title_activity_family_number_setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.AddBindDeviceActivity"
+            android:label="@string/title_activity_add_bind_device"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.TraceActivity"
+            android:label="@string/title_activity_trace"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.henmory.views.DetailNavigationActivity"
+            android:label="@string/title_activity_detail_navigation"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>
